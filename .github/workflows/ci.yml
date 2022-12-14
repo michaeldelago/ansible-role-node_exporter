@@ -6,8 +6,6 @@ name: CI
   push:
     branches:
       - master
-  schedule:
-    - cron: "30 6 * * 3"
 
 defaults:
   run:
